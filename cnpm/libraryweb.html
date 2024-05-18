@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <link rel="stylesheet" href="libraryweb.css">
+    <title>Library Website</title>
+
+  </head>
+  <body>
+    <div class="left-section">
+      <div class="logo">
+        <img src="./images/Fruit-Lemon--Streamline-Freehand.png">
+          <a href="#">LEMONADE</a>
+      </div>
+
+      <div class="sidebar">
+        <div class="item active">
+            <i class="ri-home-4-line"></i>
+            <h3>Dashboard</h3>
+        </div>
+        <div class="item">
+          <i class="ri-user-5-line"></i>
+          <h3>My Account</h3>
+        </div>
+        <div class="item">
+          <i class="ri-history-line"></i>
+          <h3>History</h3>
+        </div>
+        <div class="item">
+          <i class="ri-global-line"></i>
+          <h3>Popular</h3>
+        </div>
+        <div class="item">
+          <i class="ri-book-3-line"></i>
+          <h3>Booklist</h3>
+        </div>
+        <div class="item">
+          <i class="ri-chat-smile-2-fill"></i>
+          <h3>Social</h3>
+        </div>
+        <div class="item">
+          <i class="ri-heart-2-line"></i>
+          <h3>Favorite</h3>
+        </div>
+        <div class="item">
+          <i class="ri-settings-3-line"></i>
+          <h3>Settings</h3>
+        </div>
+      </div>
+
+      <div class="sign-out">
+          <i class="ri-logout-box-r-line"></i>
+          <h3>Sign Out</h3>
+      </div>
+    </div>
+    <div class="main">
+      <div class="header">
+        <div class="search">
+          <button ><i class="ri-search-2-line"></i>
+          </button>
+            <input type="text" placeholder="Search for books...">
+        </div>
+        <i class="ri-equalizer-2-line"></i>
+        <button id="clicktosearch"  class="button-overlay" ></button>
+      </div>
+
+      <div class="banner">
+        <div class="share">
+          <i class="ri-share-line"></i>
+          <i class="ri-more-line"></i>
+        </div>
+        <div class="book-info">
+          <div class="item">
+            <h3>Today's Popular Book :</h3>
+          </div>
+          <div class="item">
+            <i class="ri-heart-2-line"></i>
+            <h3>0</h3>
+          </div>
+          <div class="item">
+            <i class="ri-eye-line"></i>
+            <h3>0</h3>
+          </div>
+          <div class="item">
+            <i class="ri-calendar-line"></i>
+            <h3>0 (Month)</h3>
+          </div>
+          <div class="item">
+            <i class="ri-bookmark-line"></i>
+            <h3>0</h3>
+          </div>
+        </div>
+        <img src="./images/toi-thay-hoa-vang-tren-co-xanh.jpg" alt="">
+      </div>
+      <div class="separator">
+        <h3>Discover World</h3>
+        <div class="categories">
+          <li><a class="active" href="#">All</a></li>
+          <li><a href="#">New to you</a></li>
+          <li><a href="#">Action & Adventure</a></li>
+          <li><a href="#">Classics</a></li>
+          <li><a href="#">Comic Book</a></li>
+          <li><a href="#">Historical Fiction</a></li>
+          <li><a href="#">Romance</a></li>
+          <li><a href="#">Science Fiction</a></li>
+          <li><a href="#">More
+            <i class="ri-arrow-down-wide-fill"></i>
+          </a>
+            <ul class="sub-menu">
+              <li><a href="">Comic Book</a></li>
+              <li><a href="">Thriller</a></li>
+              <li><a href="">Realistic Fiction</a></li>
+              <li><a href="">Fan Fiction</a></li>
+            </ul>
+          </li>
+        </div>
+      </div>
+      <div class="book-items">
+        <!-- <div class="buttons">
+          <button id="prev">
+            <i class="ri-arrow-left-wide-line"></i>
+          </button>
+          <button id="next">
+            <i class="ri-arrow-right-wide-line"></i>
+          </button>
+        </div> -->
+        <div class="item">
+          <div class="like">
+            <i class="ri-heart-2-line"></i>
+          </div>
+          <img src="./images/book1.png" alt="">
+          <div class="details">
+            <h3>INTRODUCTION TO EMBEDĐE SYSTEMS</h3>
+            <div class="info">
+              <div class="author">
+                <i class="ri-id-card-fill"></i>
+                <h5>Author's name</h5>
+              </div>
+              <div class="rate">
+                <i class="ri-star-s-line"></i>
+                <h5>0</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="like">
+            <i class="ri-heart-2-line"></i>
+          </div>
+          <img src="./images/book9.jpg" alt="">
+          <div class="details">
+            <h3>RAY BRADBURY</h3>
+            <div class="info">
+              <div class="author">
+                <i class="ri-id-card-fill"></i>
+                <h5>Author's name</h5>
+              </div>
+              <div class="rate">
+                <i class="ri-star-s-line"></i>
+                <h5>0</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="like">
+            <i class="ri-heart-2-line"></i>
+          </div>
+          <img src="./images/book10.jpg" alt="">
+          <div class="details">
+            <h3>JAWS</h3>
+            <div class="info">
+              <div class="author">
+                <i class="ri-id-card-fill"></i>
+                <h5>Author's name</h5>
+              </div>
+              <div class="rate">
+                <i class="ri-star-s-line"></i>
+                <h5>0</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="like">
+            <i class="ri-heart-2-line"></i>
+          </div>
+          <img src="./images/book1.png" alt="">
+          <div class="details">
+            <h3>Book's name 1</h3>
+            <div class="info">
+              <div class="author">
+                <i class="ri-id-card-fill"></i>
+                <h5>Author's name</h5>
+              </div>
+              <div class="rate">
+                <i class="ri-star-s-line"></i>
+                <h5>0</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="like">
+            <i class="ri-heart-2-line"></i>
+          </div>
+          <img src="./images/book1.png" alt="">
+          <div class="details">
+            <h3>Book's name 1</h3>
+            <div class="info">
+              <div class="author">
+                <i class="ri-id-card-fill"></i>
+                <h5>Author's name</h5>
+              </div>
+              <div class="rate">
+                <i class="ri-star-s-line"></i>
+                <h5>0</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="like">
+            <i class="ri-heart-2-line"></i>
+          </div>
+          <img src="./images/book1.png" alt="">
+          <div class="details">
+            <h3>Book's name 1</h3>
+            <div class="info">
+              <div class="author">
+                <i class="ri-id-card-fill"></i>
+                <h5>Author's name</h5>
+              </div>
+              <div class="rate">
+                <i class="ri-star-s-line"></i>
+                <h5>0</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="like">
+            <i class="ri-heart-2-line"></i>
+          </div>
+          <img src="./images/book1.png" alt="">
+          <div class="details">
+            <h3>Book's name 1</h3>
+            <div class="info">
+              <div class="author">
+                <i class="ri-id-card-fill"></i>
+                <h5>Author's name</h5>
+              </div>
+              <div class="rate">
+                <i class="ri-star-s-line"></i>
+                <h5>0</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="like">
+            <i class="ri-heart-2-line"></i>
+          </div>
+          <img src="./images/book1.png" alt="">
+          <div class="details">
+            <h3>Book's name 1</h3>
+            <div class="info">
+              <div class="author">
+                <i class="ri-id-card-fill"></i>
+                <h5>Author's name</h5>
+              </div>
+              <div class="rate">
+                <i class="ri-star-s-line"></i>
+                <h5>0</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="like">
+            <i class="ri-heart-2-line"></i>
+          </div>
+          <img src="./images/book1.png" alt="">
+          <div class="details">
+            <h3>Book's name 1</h3>
+            <div class="info">
+              <div class="author">
+                <i class="ri-id-card-fill"></i>
+                <h5>Author's name</h5>
+              </div>
+              <div class="rate">
+                <i class="ri-star-s-line"></i>
+                <h5>0</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+
+    <div class="right-section">
+      <div class="profile">
+        <div class="info">
+          <i class="ri-user-5-line"></i>
+          <h5>Welcome Lemonader!</h5>
+        </div>
+        <div class="user">
+          <i class="ri-notification-2-line"></i>
+          <img src="./images/user.jpg" alt="">
+        </div>
+      </div>
+
+        <h3>Relative Booklist</h3>
+
+        <div class="booklist">
+          <img src="./images/book4.jpg" alt="">
+          <div class="other">
+            <img src="./images/book2.jpg" alt="">
+            <img src="./images/book3.webp" alt="">
+            <img src="./images/book4.jpg" alt="">
+            <img src="./images/book5.webp" alt="">
+          </div>
+        </div>
+
+        <h3>Current Reading</h3>
+
+        <div class="reading">
+          <div class="content">
+            <img src="./images/book6.webp" alt="">
+            <div class="info">
+              <h5>THE HOBBIT</h5>
+              <div class="rate">
+                <i class="ri-star-s-line"></i>
+                <h5>0</h5>
+              </div>
+            </div>
+            <div class="desc">
+              <p>In this practical guide, experienced embedded engineer Lewin Edwards demonstrates faster, lower-cost methods for developing high-end embedded systems...</p>
+            </div>
+          </div>
+          <i class="ri-book-open-line"></i>
+        </div>
+
+        <h3>Weekly Popular</h3>
+
+
+        <div class="weekly">
+          <div class="item">
+            <div class="content">
+              <img src="./images/book7.jpg" alt="">
+              <div class="info">
+                <h4>THE HOBBIT</h4>
+                <div class="view">
+                  <i class="ri-eye-line"></i>
+                  <h5>0</h5>
+                </div>
+              </div>
+            </div>
+            <i class="ri-heart-add-2-line"></i>
+          </div>
+          <div class="item">
+            <div class="content">
+              <img src="./images/book8.avif" alt="">
+              <div class="info">
+                <h4>Book's name 4</h4>
+                <div class="view">
+                  <i class="ri-eye-line"></i>
+                  <h5>0</h5>
+                </div>
+              </div>
+            </div>
+            <i class="ri-heart-add-2-line"></i>
+          </div>
+          <div class="item">
+            <div class="content">
+              <img src="./images/book9.jpg" alt="">
+              <div class="info">
+                <h4>Book's name 4</h4>
+                <div class="view">
+                  <i class="ri-eye-line"></i>
+                  <h5>0</h5>
+                </div>
+              </div>
+            </div>
+            <i class="ri-heart-add-2-line"></i>
+          </div>
+          <div class="item">
+            <div class="content">
+              <img src="./images/book10.jpg" alt="">
+              <div class="info">
+                <h4>Book's name 4</h4>
+                <div class="view">
+                  <i class="ri-eye-line"></i>
+                  <h5>0</h5>
+                </div>
+              </div>
+            </div>
+            <i class="ri-heart-add-2-line"></i>
+          </div>
+        </div>
+
+
+    </div>
+    <script>
+      document.getElementById("clicktosearch").addEventListener("click", function() {
+          window.open("http://127.0.0.1:5500/search.html", "_blank"); 
+      });
+  </script>
+    <script src="script_libraryweb.js"></script>
+  </body>
+</html>
