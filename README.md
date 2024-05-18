@@ -8,6 +8,7 @@
 
 ### Chức năng:
 - Tìm đọc sách
+- Mua sách
 
 ### Quá trình phát triển:
 1. Phân tích yêu cầu
