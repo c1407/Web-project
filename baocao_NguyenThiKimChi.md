@@ -3,7 +3,7 @@
 ### Nhóm: Nhóm 26
 
 # BÁO CÁO DỰ ÁN MÔN HỌC CÔNG NGHỆ PHẦN MỀM
-* Bài tập nhóm: Xây dựng Web thư viện online
+* Bài tập nhóm: Xây dựng Web thư viện online.
 * User Story: Là một khách hàng, tôi muốn có chức năng đăng nhập, phục vụ việc bảo mật cho người dùng.
 1. Phân tích, thiết kế
 - Phân chia công việc, xác định mức độ quan trọng của từng đầu việc.
@@ -25,7 +25,7 @@
 - Kiểm tra bao phủ của từng hàm, hàm nào chưa được gọi sử dụng sẽ được loại bỏ.
 - Dự đoán nơi nào của hệ thống dễ bị ẩn chứa lỗi, kiểm tra kỹ đối với tường trường hợp ở vị trí đó.
 
-* Hướng dẫn sử dụng
+4. Hướng dẫn sử dụng
 - Khi chưa đăng nhập thì trên thanh header hiện button 'Login'.
 - Khi đăng nhập thành công thì cuối thanh công cụ hiện button 'logout'.
 - Khi đăng xuất thì thanh công cụ lại hiện login.

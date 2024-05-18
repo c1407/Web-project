@@ -3,7 +3,7 @@
 ### Nhóm: Nhóm 26
 
 # BÁO CÁO DỰ ÁN MÔN HỌC CÔNG NGHỆ PHẦN MỀM
-* Bài tập nhóm: Xây dựng Web thư viện online
+* Bài tập nhóm: Xây dựng Web thư viện online.
 * User Story: Là một khách hàng, tôi muốn có chức năng tìm kiếm sản phẩm theo nhu cầu và mong muốn của tôi.
 1. Phân tích, thiết kế
 - Phân chia công việc, xác định mức độ quan trọng của từng đầu việc.
@@ -21,7 +21,7 @@
 - Kiểm tra bao phủ của từng hàm, hàm nào chưa được gọi sử dụng sẽ được loại bỏ.
 - Dự đoán nơi nào của hệ thống dễ ẩn chứa lỗi, kiểm tra kỹ đối với tường trường hợp ở đó. 
 
-* Hướng dẫn sử dụng
+4. Hướng dẫn sử dụng
 - Nhấp vào ô Search đển tìm kiếm sản phẩm.
 - Nhập thông tin tìm kiếm vào ô Search, sau đó click vào biểu tượng tìm kiếm để tìm kiếm sản phẩm mong muốn.
 - Ấn vào sản phẩm để xem chi tiết thông tin sản phẩm.

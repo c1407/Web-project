@@ -3,7 +3,7 @@
 ### Nhóm: Nhóm 26
 
 # BÁO CÁO DỰ ÁN MÔN HỌC CÔNG NGHỆ PHẦN MỀM
-* Bài tập nhóm: Xây dựng Web thư viện online
+* Bài tập nhóm: Xây dựng Web thư viện online.
 * User Story: Là một người dùng, tôi muốn nhìn thấy sản phẩm và thông tin các sản phẩm.
 1. Phân tích, thiết kế
 - Phân chia công việc, xác định mức độ quan trọng của từng đầu việc.
@@ -26,7 +26,7 @@
 - Rà soát các lỗi mã nguồn.
 - Đảm bảo chức năng hoạt động một cách chính xác.
 
-* Hướng dẫn sử dụng
+4. Hướng dẫn sử dụng
 - Muốn tìm kiếm ấn phẩm thì click vào thanh Search.
 - Chính giữa là ấn phẩm phổ biến trong ngày.
 - Muốn xem tài khoản thì click vào My Account.
